@@ -1,0 +1,56 @@
+2026-10-26 16:54:04,944 | INFO | START: tests/test_amazon_e2e.py::test_amazon_full_navigation_workflow
+2026-10-26 16:54:34,195 | INFO | END: tests/test_amazon_e2e.py::test_amazon_full_navigation_workflow
+2026-10-26 16:58:52,539 | INFO | START: tests/test_amazon_e2e.py::test_amazon_full_navigation_workflow
+2026-10-26 16:59:04,369 | ERROR | Failure screenshot and trace saved
+2026-10-26 16:59:04,553 | INFO | END: tests/test_amazon_e2e.py::test_amazon_full_navigation_workflow
+2026-10-26 17:01:27,211 | INFO | START: tests/test_amazon_e2e.py::test_amazon_full_navigation_workflow
+2026-10-26 17:02:17,133 | ERROR | Failure screenshot and trace saved
+2026-10-26 17:02:17,500 | INFO | END: tests/test_amazon_e2e.py::test_amazon_full_navigation_workflow
+2026-10-26 17:07:35,503 | INFO | START: tests/test_amazon_e2e.py::test_amazon_full_navigation_workflow
+2026-10-26 17:08:14,756 | INFO | END: tests/test_amazon_e2e.py::test_amazon_full_navigation_workflow
+2026-10-26 17:08:53,278 | INFO | START: tests/test_demowebshop_e2e.py::test_demowebshop_product_and_cart
+2026-10-26 17:09:04,230 | INFO | END: tests/test_demowebshop_e2e.py::test_demowebshop_product_and_cart
+2026-10-26 17:10:02,613 | INFO | START: tests/test_parabank_e2e.py::test_parabank_account_overview
+2026-10-26 17:10:12,199 | INFO | END: tests/test_parabank_e2e.py::test_parabank_account_overview
+2026-10-26 17:11:53,539 | INFO | START: tests/test_demowebshop_e2e.py::test_demowebshop_product_and_cart
+2026-10-26 17:12:02,176 | ERROR | Failure screenshot and trace saved
+2026-10-26 17:12:02,308 | INFO | END: tests/test_demowebshop_e2e.py::test_demowebshop_product_and_cart
+2026-10-26 17:13:27,314 | INFO | START: tests/test_demowebshop_e2e.py::test_demowebshop_product_and_cart
+2026-10-26 17:13:37,979 | INFO | END: tests/test_demowebshop_e2e.py::test_demowebshop_product_and_cart
+2026-10-26 17:13:50,218 | INFO | START: tests/test_parabank_e2e.py::test_parabank_account_overview
+2026-10-26 17:13:59,594 | INFO | END: tests/test_parabank_e2e.py::test_parabank_account_overview
+2026-10-26 17:18:43,810 | INFO | START: tests/test_parabank_e2e.py::test_parabank_account_overview
+2026-10-26 17:18:53,191 | INFO | END: tests/test_parabank_e2e.py::test_parabank_account_overview
+2026-10-26 17:20:18,336 | INFO | START: tests/test_parabank_e2e.py::test_parabank_account_overview
+2026-10-26 17:20:37,270 | ERROR | Failure screenshot and trace saved
+2026-10-26 17:20:37,499 | INFO | END: tests/test_parabank_e2e.py::test_parabank_account_overview
+2026-10-26 17:20:49,357 | INFO | START: tests/test_parabank_e2e.py::test_parabank_account_overview
+2026-10-26 17:20:58,230 | INFO | END: tests/test_parabank_e2e.py::test_parabank_account_overview
+2026-10-26 17:21:04,697 | INFO | START: tests/test_demowebshop_e2e.py::test_demowebshop_product_and_cart
+2026-10-26 17:21:14,707 | INFO | END: tests/test_demowebshop_e2e.py::test_demowebshop_product_and_cart
+2026-10-26 17:22:22,440 | INFO | START: tests/test_demowebshop_e2e.py::test_demowebshop_product_and_cart
+2026-10-26 17:22:28,092 | ERROR | Could not save failure evidence
+Traceback (most recent call last):
+  File "/home/nevin/PycharmProjects/Assignment3_Nevin/conftest.py", line 71, in browser_page
+    await page.screenshot(
+  File "/home/nevin/PycharmProjects/Assignment3_Nevin/.venv/lib/python3.12/site-packages/playwright/async_api/_generated.py", line 20146, in screenshot
+    await self._impl_obj.screenshot(
+  File "/home/nevin/PycharmProjects/Assignment3_Nevin/.venv/lib/python3.12/site-packages/playwright/_impl/_page.py", line 832, in screenshot
+    encoded_binary = await self._channel.send(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nevin/PycharmProjects/Assignment3_Nevin/.venv/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 78, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nevin/PycharmProjects/Assignment3_Nevin/.venv/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 636, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TargetClosedError: Page.screenshot: Target page, context or browser has been closed
+2026-10-26 17:22:28,195 | INFO | END: tests/test_demowebshop_e2e.py::test_demowebshop_product_and_cart
+2026-10-26 17:28:02,022 | INFO | START: tests/test_demowebshop_e2e.py::test_demowebshop_product_and_cart
+2026-10-26 17:28:10,368 | ERROR | Failure screenshot and trace saved
+2026-10-26 17:28:10,498 | INFO | END: tests/test_demowebshop_e2e.py::test_demowebshop_product_and_cart
+2026-10-26 17:28:46,720 | INFO | START: tests/test_demowebshop_e2e.py::test_demowebshop_product_and_cart
+2026-10-26 17:28:57,238 | INFO | END: tests/test_demowebshop_e2e.py::test_demowebshop_product_and_cart
+2026-10-26 17:38:18,938 | INFO | START: tests/test_demowebshop_e2e.py::test_demowebshop_product_and_cart
+2026-10-26 17:38:29,168 | INFO | END: tests/test_demowebshop_e2e.py::test_demowebshop_product_and_cart
+2026-10-26 17:42:12,633 | INFO | START: tests/test_demowebshop_e2e.py::test_demowebshop_product_and_cart
+2026-10-26 17:42:22,583 | INFO | END: tests/test_demowebshop_e2e.py::test_demowebshop_product_and_cart
